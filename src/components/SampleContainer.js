@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { getPost, getUsers } from '../modules/sample';
 import Sample from './Sample';
-import loading from '../modules/loading';
+
 const SampleContainer = ({
   getPost,
   getUsers,
